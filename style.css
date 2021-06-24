@@ -7,9 +7,11 @@ a {font-weight:700; text-decoration:underline; color:#000; margin:20px 0px; text
 a:visited, a:active {color:#999;} a:hover {color:#666;}
 .caps-heading {font-weight:700; font-family:'Open Sans', sans-serif; font-size:20px; margin:0px;}
 
-nav {display:flex; justify-content:space-around; flex-wrap:wrap; padding-top:10px; padding-bottom:40px;}
+nav {display:flex; justify-content:space-around; flex-wrap:wrap; padding-bottom:10px;}
 
-a {align-self:center;}
+a {align-self:center; overflow-wrap:normal;}
+
+header p {margin-bottom:0px;}
 
 hr {height:3px; color:#000; background-color:#000; display:block;}
 
@@ -51,4 +53,5 @@ nav {justify-content:space-between;}
     .find-degree h2, .find-degree p {text-align:center;}
     button {width:336px; margin:auto; margin-top:10px;}
     .search {text-align: center;}
+    a {max-width:100px;}
 }
