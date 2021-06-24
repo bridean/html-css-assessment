@@ -1,0 +1,54 @@
+h1, h2, h3, h4, p, nav, button, select {font-family: 'Cabin', sans-serif; font-weight:500; color:"#000";}
+h1, h2, h3, button {font-weight:700;}
+h3 {margin:4px;}
+p {font-size:16px;}
+
+a {font-weight:700; text-decoration:underline; color:#000; margin:20px 0px; text-align:center;}
+a:visited, a:active {color:#999;} a:hover {color:#666;}
+.caps-heading {font-weight:700; font-family:'Open Sans', sans-serif; font-size:20px; margin:0px;}
+
+nav {display:flex; justify-content:space-around; flex-wrap:wrap; padding-top:10px; padding-bottom:40px;}
+
+a {align-self:center;}
+
+hr {height:3px; color:#000; background-color:#000; display:block;}
+
+select {width:332px; padding:14px; border:2px solid #999; border-radius:3px; margin:0px 20px; font-size:16px;}
+button {width:168px; height:55px; background:#ffcf2f; font-size:16px; border-width:0px; border-radius:27px; cursor: pointer;}
+
+header, nav, main {margin:auto; text-align:center;}
+
+.find-degree {text-align:left; padding:40px 0px; height:56px;}
+.find-degree h2 {margin:0px;}
+.find-degree p {font-size:10px; margin-top:2px; font-weight:600;}
+
+.top-skills {background-color:#f3fbff !important; padding:24px 20px 10px 20px;}
+.white-box-wrapper {display:flex; justify-content:center; flex-wrap:wrap; background-color:#f3fbff !important;}
+.white-box {background:#fff; border-radius:10px; margin:10px; box-shadow:0px 1px 3px #eee;}
+.white-box p {line-height: 1.6;}
+
+@media only screen and (min-width: 1024px) {
+header, nav, main, hr {max-width:1128px;}
+.white-box {max-width:416px; padding:20px;}
+.find-degree {padding-left:100px;}
+.find-degree div {float:left;}
+nav {justify-content:space-between;}
+}
+
+@media only screen and (min-width:768px) and (max-width: 1023px) {
+    header, nav, main, hr {max-width:688px;}
+    .white-box {max-width:296px; padding:20px;}
+    .find-degree {height:140px;}
+    .search {float:left;}
+    .find-degree h2, .find-degree p {text-align:center;}
+    form {display:flex; justify-content:center;}
+}
+
+@media only screen and (max-width: 767px) {
+    header, nav, main, hr {max-width:366px;}
+    .white-box {max-width:296px; padding:20px;}
+    .find-degree {height:200px;}
+    .find-degree h2, .find-degree p {text-align:center;}
+    button {width:336px; margin:auto; margin-top:10px;}
+    .search {text-align: center;}
+}
